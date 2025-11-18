@@ -25,7 +25,7 @@ VLDL = st.number_input('VLDL levels')
 BMI = st.number_input('BMI')
 
 # Provide a button for user to click and get the predictions
-submit = st.button('predict the result here')
+submit = st.button('Predict here to see the result')
 
 # Load the pickle files: preprocessor, model
 with open('pre.pkl','rb') as file:
